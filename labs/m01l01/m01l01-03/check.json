@@ -1,0 +1,25 @@
+{
+  "lab": "m01l01-03",
+  "lesson": "m01l01",
+  "title": "The claim, written down",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q test_cart.py",
+  "main": "test_cart.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/nodeids",
+    "cart.py",
+    "command.txt",
+    "test_cart.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

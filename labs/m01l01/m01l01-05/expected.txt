@@ -1,0 +1,11 @@
+F                                                                      [100%]
+================================== FAILURES ==================================
+___________________________ test_two_lines_add_up ____________________________
+test_cart.py:5: in test_two_lines_add_up
+    assert total([(250, 2), (125, 4)]) == 1000
+E   assert 900 == 1000
+E    +  where 900 = total([(250, 2), (125, 4)])
+========================== short test summary info ===========================
+FAILED test_cart.py::test_two_lines_add_up - assert 900 == 1000
+ +  where 900 = total([(250, 2), (125, 4)])
+1 failed in 0.01s

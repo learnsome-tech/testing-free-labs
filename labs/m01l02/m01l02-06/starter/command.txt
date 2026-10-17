@@ -1,0 +1,1 @@
+pytest -q --tb=short test_pricing.py

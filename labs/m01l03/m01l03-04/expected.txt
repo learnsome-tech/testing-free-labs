@@ -1,0 +1,7 @@
+.FF                                                                    [100%]
+========================== short test summary info ===========================
+FAILED test_pricing.py::test_the_default_rate_is_twenty - assert 1175 == 1200
+ +  where 1175 = with_vat(1000)
+FAILED test_pricing.py::test_vat_rounds_to_the_penny - assert 1173 == 1199
+ +  where 1173 = with_vat(999)
+2 failed, 1 passed in 0.00s

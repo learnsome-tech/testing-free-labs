@@ -1,0 +1,26 @@
+{
+  "lab": "m01l02-05",
+  "lesson": "m01l02",
+  "title": "How a phased test fails",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q --tb=short test_pricing.py",
+  "main": "test_pricing.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/lastfailed",
+    ".pytest_cache/v/cache/nodeids",
+    "command.txt",
+    "pricing.py",
+    "test_pricing.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

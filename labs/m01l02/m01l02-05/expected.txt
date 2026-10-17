@@ -1,0 +1,9 @@
+F                                                                      [100%]
+================================== FAILURES ==================================
+_____________________ test_vat_is_added_to_the_subtotal ______________________
+test_pricing.py:9: in test_vat_is_added_to_the_subtotal
+    assert charged == 1200
+E   assert 1250 == 1200
+========================== short test summary info ===========================
+FAILED test_pricing.py::test_vat_is_added_to_the_subtotal - assert 1250 == 1200
+1 failed in 0.01s

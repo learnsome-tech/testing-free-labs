@@ -1,0 +1,1 @@
+pytest -q -m "not slow" test_layers.py

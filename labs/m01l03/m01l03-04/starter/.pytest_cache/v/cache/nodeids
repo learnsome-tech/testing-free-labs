@@ -1,0 +1,5 @@
+[
+  "test_pricing.py::test_subtotal_adds_the_lines",
+  "test_pricing.py::test_the_default_rate_is_twenty",
+  "test_pricing.py::test_vat_rounds_to_the_penny"
+]

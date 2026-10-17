@@ -1,0 +1,11 @@
+F                                                                      [100%]
+================================== FAILURES ==================================
+________________________________ test_pricing ________________________________
+test_pricing.py:6: in test_pricing
+    assert with_vat(1000) == 1200
+E   assert 1175 == 1200
+E    +  where 1175 = with_vat(1000)
+========================== short test summary info ===========================
+FAILED test_pricing.py::test_pricing - assert 1175 == 1200
+ +  where 1175 = with_vat(1000)
+1 failed in 0.01s

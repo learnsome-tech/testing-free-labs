@@ -1,0 +1,1 @@
+pytest -q --tb=no test_pricing.py

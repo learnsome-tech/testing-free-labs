@@ -1,0 +1,4 @@
+{
+  "test_pricing.py::test_the_default_rate_is_twenty": true,
+  "test_pricing.py::test_vat_rounds_to_the_penny": true
+}
